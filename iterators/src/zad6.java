@@ -15,7 +15,7 @@ public class zad6 {
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         System.out.println(iterator.next());
-        System.out.println(iterator.next());
+        //System.out.println(iterator.next());
         System.out.println("other iterator: "+another.next());
     }
 
@@ -34,11 +34,14 @@ public class zad6 {
             else
                 throw new NoSuchElementException();
         }
+        @SuppressWarnings("unchecked")
         public void remove() {
-           for (int i=pos;i<array.length-1;i++){
-               array[i] = array[i+1];
-           }
-           array[array.length-1] = null;
+            T[] copy  = (T[]) (new Object[array.length-1]);
+            System.arraycopy(array,0,copy,0,pos);
+
+            if (array.length - 1 - pos >= 0)
+                System.arraycopy(array, pos + 1, copy, pos, array.length - 1 - pos);
+            array = copy;
         }
     }
 }

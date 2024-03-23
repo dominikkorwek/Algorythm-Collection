@@ -1,9 +1,7 @@
-import javax.swing.text.html.HTMLDocument;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class zad1 {
+public class zad8 {
     public static void main(String[] args) {
         ArrayList<Integer> array = new ArrayList<>();
         for (int i = 1; i <= 10; i++)

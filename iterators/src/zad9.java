@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class zad2 {
+public class zad9 {
     public static void main(String[] args) {
         Integer number = 4;
         Iterator<Integer> iterator = new FibInterator(number);
