@@ -1,47 +1,26 @@
-# Algorithm Collection
+# Algorithm Collection - Potyczki Algorytmistyczne 2024
 
-This repository contains a collection of algorithms implemented in various programming languages. It is intended to serve as a reference for anyone looking to understand, implement, or improve their algorithmic skills. Whether you're a beginner or an experienced programmer, this repository offers a range of algorithms from basic to more advanced topics.
+This repository contains a collection of algorithmic challenges and solutions from the **Potyczki Algorytmistyczne 2024** competition, as well as implementations of basic algorithms and exercises related to iterators. The repository is designed to help you improve your algorithmic skills through practice and study.
 
 ## Contents
 
-- **Sorting Algorithms**: Implementations of various sorting algorithms like Bubble Sort, Merge Sort, Quick Sort, etc.
-- **Search Algorithms**: Examples of search algorithms, including Binary Search, Linear Search, and more.
-- **Data Structures**: Implementations of fundamental data structures such as Linked Lists, Stacks, Queues, Trees, Graphs, etc.
-- **Dynamic Programming**: A collection of problems solved using dynamic programming techniques.
-- **Graph Algorithms**: Implementations of graph-related algorithms like Dijkstra's, Depth-First Search (DFS), Breadth-First Search (BFS), etc.
-- **Mathematical Algorithms**: Examples of algorithms that involve mathematical concepts such as prime number generation, greatest common divisor (GCD), etc.
-- **String Algorithms**: Algorithms related to string processing, including pattern matching, string searching, etc.
+### 1. Potyczki Algorytmistyczne 2024
+This section includes solutions to various problems from the **Potyczki Algorytmistyczne 2024** competition. The problems cover a wide range of algorithmic concepts. Each solution is implemented in Java and includes well-commented code to help you understand the approach and logic used.
 
-## How to Use
+### 2. Basic Algorithms
+In this section, you'll find Java implementations of fundamental algorithms that are essential for any programmer:
 
-1. **Clone the repository** to your local machine:
+- **Greatest Common Divisor (GCD)**: Implementation of the Euclidean algorithm to find the greatest common divisor of two numbers.
+- **Palindrome Check**: A function to determine whether a given string is a palindrome.
+- **Exponentiation**: Efficient algorithms for exponentiation, including both iterative and recursive methods.
+- **Factorial Calculation**: Functions to calculate the factorial of a number using both iterative and recursive approaches.
 
-    ```bash
-    git clone https://github.com/dominikkorwek/Algorythms.git
-    ```
-
-2. **Navigate to the directory** where the algorithm you are interested in is located:
-
-    ```bash
-    cd Algorythms/<folder_name>
-    ```
-
-3. **Run the algorithm** using the appropriate compiler or interpreter for the programming language used. For example:
-
-    ```bash
-    python algorithm_name.py
-    ```
-
-    or
-
-    ```bash
-    gcc algorithm_name.c -o algorithm_name
-    ./algorithm_name
-    ```
+### 3. Iterator Exercises
+This section contains a set of problems and solutions focused on the use of iterators in Java. The exercises are designed to enhance your understanding of how iterators work and how they can be applied in various algorithmic contexts.
 
 ## Contributing
 
-Contributions are welcome! If you have an algorithm that is not covered in this repository, feel free to submit a pull request. Please ensure that your code is well-documented and includes comments explaining the logic behind the algorithm.
+Contributions are welcome! If you have an alternative solution to a problem or want to add a new algorithm, feel free to submit a pull request. Ensure that your code is clean, well-documented, and follows the repository's structure.
 
 ## License
 
@@ -53,4 +32,4 @@ This repository is maintained by **Dominik Korwek**. If you have any questions o
 
 ---
 
-Happy coding!
+Happy coding and good luck with your algorithmic challenges!
